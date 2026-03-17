@@ -12,10 +12,10 @@
   <nav>
     <div id="home">
       <div class="profile_name">
-        Jane Doe
+        Brandon Kennedy
         <div class="contact_info">
           <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope" />
-          jdoe@jeemail.com
+          bken@email.com
         </div>
         <div style="clear:both;"></div>
         <div class="contact_info">
@@ -27,26 +27,29 @@
       <div class="topdiv">
         <a class="topmenu" href="#about-me">About Me</a>
         <!-- Add the links for Skills, Projects and Recommendation here -->
-
+        <a class="topmenu" href="#skills">Skills</a>
+        <a class="topmenu" href="#projects">Projects</a>
+        <a class="topmenu" href="#recommendations">Recommendations</a>
       </div>
     </div>
   </nav>
 
   <!-- About Me -->
   <section id="about-me" class="container">
-    <div>
-      <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image" />
+    <div id="profile_image_container">
+      <img src="html_finalprojimages/portfolio_img.jpg" class="profile_image" alt="Brandon Kennedy" />
     </div>
 
     <div>
       <h1>
-        Hi, I'm Jane Doe! <img src="html_finalprojimages/waving-hand.png" width="60px" />
+        Hi, I'm Brandon Kennedy! <img src="html_finalprojimages/waving-hand.png" width="60px" />
       </h1>
       <p>
-        I am a full stack developer with 2 years of experience in both application and presentation layers.
-        I have worked on applications and microservices deployed on IBM Cloud.
-        I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a
-        few.
+        I am a front-end software developer with 3 years of experience with user interface design, web application
+        development, and microservices. I have worked with HTML, CSS, and JavaScript languages along
+        with frameworks such as React and Angular. I took the role of leadership in multiple projects and is
+        able to take on new challenges and responsibilities in a fast-paced environment. I worked for Google
+        in the department that specializes in providing web application services to clients.
       </p>
     </div>
   </section>
@@ -70,7 +73,29 @@
       </div>
 
       <!-- Add more skills here -->
+      <div class="skill">
+        <img src="html_finalprojimages/CSS3.png" />
+        <h6>CSS3</h6>
+        <p>3 years experience</p>
+      </div>
 
+      <div class="skill">
+        <img src="html_finalprojimages/react.png" />
+        <h6>React</h6>
+        <p>2 years experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="html_finalprojimages/node.png" />
+        <h6>Node.js</h6>
+        <p>2 years experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="html_finalprojimages/java.png" />
+        <h6>Java</h6>
+        <p>3 years experience</p>
+      </div>
 
     </div>
   </section>
@@ -84,26 +109,28 @@
 
     <div id="projects-container" class="projects-container">
       <div class="project-card">
-        <h3>Chatbot</h3>
+        <h3>Grocery Delivery App</h3>
         <ul>
-          <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript
-            and IBM Watson Assistant</li>
+          <li>Developed a mobile application that facilitates searching for nearby grocery stores
+            and fast online delivery using React and Google Cloud Platform.
+          </li>
         </ul>
       </div>
       <hr>
       <div class="project-card">
-        <h3>Sentiment Analyzer</h3>
+        <h3>Gardening and Landscaping Website</h3>
         <ul>
-          <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM
-            NLU</li>
+          <li>Created a website for a local gardening and landscaping business using HTML, CSS, and JavaScript,
+            and hosted on Google Cloud that displays their services and allows clients to book appointments.
+          </li>
         </ul>
       </div>
       <hr>
       <div class="project-card">
-        <h3>Fashion Website</h3>
+        <h3>Wedding Invitation Template Design</h3>
         <ul>
-          <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a
-            shopping cart, using stripe for payment gateway</li>
+          <li>Designed an online web service for Google Cloud using Angular and Node.js that lets users
+            decorate and design wedding cards with efficient creativity and minimal time. </li>
         </ul>
       </div>
     </div>
@@ -117,24 +144,26 @@
     <div class="all_recommendations" id="all_recommendations">
       <div class="recommendation">
         <span>&#8220;</span>
-        Jane is a very quick learner and quickly grasps key concepts of Web development.
-        She got a great attitude & she is an excellent team player.
-        She has a curious mind and asks the right question.
-        She takes initiative within a team and has potentials to lead the team.
+        Brandon demonstrates great leadership skills and is an outstanding
+        team player. He is quick to learn new concepts and adapt to new environments with ease.
+        He always listens to others and takes their opinions into consideration, and is willing
+        to find new challenges to take on.
         <span>&#8221;</span>
       </div>
       <div class="recommendation">
         <span>&#8220;</span>
-        Working with Jane has been an awesome experience.
-        She is highly knowledgable and always goes the extra step to make sure everything is right.
-        For any future projects that need her expertise I would definitely want to work with her again.
+        Brandon's been a great, reliable asset for not only his assigned team but for
+        whole company. He makes great progress in projects that work in the interest of
+        people and is always willing to help out where needed. He keeps a positive and
+        professional attitude even under pressure.
         <span>&#8221;</span>
       </div>
       <div class="recommendation">
         <span>&#8220;</span>
-        I had worked along with Jane during the initial phase of our venture which needed Web development.
-        She is a committed resource who has in depth knowledge about the domain.
-        She will be an asset for any organisation!
+        I've put my trust in Brandon since he starting working here 3 years ago and never
+        regretted it. The work he does contributes much value to our
+        company and all of our clients. He takes initiative even when busy, finds a solution
+        to our hardest problems, and stays on-course without distraction.
         <span>&#8221;</span>
       </div>
     </div>
@@ -157,12 +186,17 @@
   <div class="iconbutton">
     <a href="#home">
       <!--Add the code here for the logo to appear and the icon to be actionable-->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
+        width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
     </a>
   </div>
 
   <div class="popup" id="popup" class="flex_center">
     <img src="html_finalprojimages/checkmark--outline.svg" />
-    <h3><!-- Add appropriate text here--></h3>
+    <h3>Thank you for submitting your recommendation!</h3>
     <button onclick="showPopup(false)">Ok</button>
   </div>
 </body>
